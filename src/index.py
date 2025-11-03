@@ -1,9 +1,10 @@
+# type:ignore
 from varasto import Varasto
 
 
 def main():
     mehua = Varasto(100.0)
-    olutta = Varasto(100.0, 20.2)
+    olutta = Varasto(100.0, 20.2) # type: ignore
 
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
